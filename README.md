@@ -2,5 +2,5 @@
 This is a collection of all of my jupyter notebook experiments.
 nothing of interest or perhaps for someone
 
+![pandas-bro-8701](https://user-images.githubusercontent.com/88983642/203904150-a0a9bd31-1839-4669-9f26-730ca595de6c.png)
 
-![6db4d3211b5aacdd0985c371449ac068](https://user-images.githubusercontent.com/88983642/203843688-6ed4efdc-4437-4ef0-ad87-d0106767217d.png)
