@@ -2,8 +2,8 @@ name: Run Google Colab Notebook
 
 # Trigger the workflow every 30 minutes
 on:
-  schedule:
-    - cron: '*/30 * * * *'  # Runs every 30 minutes
+ # schedule:
+ #   - cron: '*/30 * * * *'  # Runs every 30 minutes
 
 jobs:
   run-colab:
