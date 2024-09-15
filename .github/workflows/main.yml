@@ -1,0 +1,19 @@
+name: Run Google Colab Notebook
+
+# Trigger the workflow every 30 minutes
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # Runs every 30 minutes
+
+jobs:
+  run-colab:
+    runs-on: ubuntu-latest  # Use the latest version of Ubuntu
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2  # Checks out your repository
+
+    - name: Run Google Colab Notebook
+      run: |
+        pip install colab-cli  # Install the colab-cli tool
+        colab-cli run --path daily_colab_run.ipynb  # Replace with your notebook's path
